@@ -52,7 +52,7 @@ const int DIM_HOLD_TIME = 200;       // 暗淡持續時間（200ms）
 
 // 優化：HX710B 讀取間隔從 1ms 改為 10ms
 const long interval = 10; // 優化：從 1ms 改為 10ms
-int RISE_THRESHOLD = 1200;  // 上升門檻（可遠端修改）
+int RISE_THRESHOLD = 1800;  // 上升門檻（可遠端修改）
 const unsigned long SHOOT_INTERVAL = 50; // 最短射擊間隔(ms)
 
 // 霍爾感測器參數設定
